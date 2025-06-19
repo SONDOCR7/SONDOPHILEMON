@@ -1,4 +1,5 @@
-# Gustavo Portfolio Web Application
+<<<<<<< HEAD
+# Sondo Philemon Web Application
 
 ## Overview
 This project is a personal portfolio web application showcasing the skills, services, and projects of Gustavo. It is designed to provide a modern and professional online presence.
@@ -25,7 +26,7 @@ gustavo-portfolio
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/gustavo-portfolio.git
-   cd gustavo-portfolio
+   cd sondo-philemon
    ```
 
 2. **Install Dependencies**:
@@ -47,3 +48,7 @@ gustavo-portfolio
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+=======
+# SONDOPHILEMON
+Amazing
+>>>>>>> ed2bf40c004c8ccdb9b3ae0d69d383ddfceea7eb
