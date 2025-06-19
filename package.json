@@ -1,0 +1,23 @@
+{
+  "name": "gustavo-portfolio",
+  "version": "1.0.0",
+  "description": "A personal portfolio web application showcasing skills, projects, and services.",
+  "main": "src/script.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "echo 'Build step can be added here'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "portfolio",
+    "web",
+    "application",
+    "personal"
+  ],
+  "author": "Gustafson Mueghe",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

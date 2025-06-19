@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Horizontal Animations</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+    }
+
+    .animation-row {
+      display: flex;
+      gap: 30px;
+    }
+
+    .box {
+      width: 50px;
+      height: 50px;
+      border-radius: 8px;
+    }
+
+    /* 1. Move Left to Right */
+    .move {
+      background: red;
+      position: relative;
+      animation: move 2s infinite alternate;
+    }
+    @keyframes move {
+      from { left: 0; }
+      to { left: 50px; }
+    }
+
+    /* 2. Spin */
+    .spin {
+      background: blue;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* 3. Fade */
+    .fade {
+      background: green;
+      animation: fade 2s infinite;
+    }
+    @keyframes fade {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+
+    /* 4. Bounce */
+    .bounce {
+      background: orange;
+      position: relative;
+      animation: bounce 1s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { top: 0; }
+      50% { top: -30px; }
+    }
+
+    /* 5. Pulse */
+    .pulse {
+      background: purple;
+      border-radius: 50%;
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.2); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="animation-row">
+    <div class="box move"></div>
+    <div class="box spin"></div>
+    <div class="box fade"></div>
+    <div class="box bounce"></div>
+    <div class="box pulse"></div>
+  </div>
+
+</body>
+</html>
